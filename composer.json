@@ -1,0 +1,27 @@
+{
+	"name": "eggbe/laravel-hash-store",
+	"version": "1.0.0",
+	"keywords": ["laravel", "hash", "store"],
+	"description": "Hashes storage library for Laravel 4",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "hacpaka",
+			"email": "hacpaka@eggbe.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.0",
+		"eggbe/hash-store": "dev-master",
+		"illuminate/support": "~4.0"
+	},
+	"autoload": {
+		"classmap": [
+			"src/commands"
+		],
+		"psr-0": {
+			"Eggbe\\LaravelHashStore\\": "src/"
+		}
+	}
+}
