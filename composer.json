@@ -1,6 +1,6 @@
 {
 	"name": "eggbe/laravel-hash-store",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"keywords": ["laravel", "hash", "store"],
 	"description": "Hashes storage library for Laravel 4",
 	"license": "MIT",

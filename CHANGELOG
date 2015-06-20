@@ -1,3 +1,8 @@
+* 1.0.1 (2015-06-21)
+
+  * add artisan command: hash::find
+
+
 * 1.0.0
 
  * initial version
