@@ -16,9 +16,9 @@ class HashFindCommand extends Command {
 	 */
 	public function fire() {
 		if (!($hash = App::make('HashStore')->find($this->argument('key')))) {
-			$this->line('Hash not exits!');
+			$this->line('Hash not found!');
 		}else {
-			$this->line('Hash finded: ' . $hash);
+			$this->line('Hash found: ' . $hash);
 		}
 	}
 
