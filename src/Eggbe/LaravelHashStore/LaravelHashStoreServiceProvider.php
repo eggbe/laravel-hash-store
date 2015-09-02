@@ -15,19 +15,19 @@ class LaravelHashStoreServiceProvider extends ServiceProvider {
 
 	/**
 	 * Register the service provider.
-	 * @return void
 	 */
 	public final function register() {
 		/* do nothing */
 	}
 
+	/**
+	 * Bootstrap the application events.
+	 */
 	public final function boot() {
 		$this->package('eggbe/laravel-hash-store');
-
 		$this->app->singleton('HashStore', function () {
 		    return new LaravelHashStore(Config::get('laravel-hash-store::config'));
 		});
-
 	}
 
 	/**
