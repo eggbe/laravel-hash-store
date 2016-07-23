@@ -2,6 +2,7 @@
 
   * Autoload method changed to psr-4
   * Illuminate 5.0 capability
+  * Facade added
 
 
 * 1.0.2 (2015-06-21)
