@@ -1,8 +1,8 @@
 {
 	"name": "eggbe/laravel-hash-store",
-	"version": "1.0.2",
+	"version": "2.0.0",
 	"keywords": ["laravel", "hash", "store"],
-	"description": "Hashes storage library for Laravel 4",
+	"description": "Hashes storage library for Laravel 5",
 	"license": "MIT",
 	"authors": [
 		{
@@ -13,14 +13,14 @@
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.3.0",
-		"illuminate/support": "~4.0",
+		"illuminate/support": "~5.0",
 		"eggbe/hash-store": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
 			"src/commands"
 		],
-		"psr-0": {
+		"psr-4": {
 			"Eggbe\\LaravelHashStore\\": "src/"
 		}
 	}

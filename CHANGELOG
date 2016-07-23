@@ -1,3 +1,9 @@
+* 2.0.0 (2016-07-23)
+
+  * Autoload method changed to psr-4
+  * Illuminate 5.0 capability
+
+
 * 1.0.2 (2015-06-21)
 
   * add artisan command: hash::search
