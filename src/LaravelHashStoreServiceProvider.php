@@ -28,9 +28,9 @@ class LaravelHashStoreServiceProvider extends ServiceProvider {
 		$this->commands([HashCreate::class, HashList::class,
 			HashRemove::class, HashFind::class, HashSearch::class]);
 
-		$this->mergeConfigFrom(dirname(__DIR__) . '/config/hash-store.php', 'hash-store');
+		$this->mergeConfigFrom(dirname(__DIR__) . '/config/hash-store.php', 'eggbe.hash-store');
 		$this->app->singleton('HashStore', function () {
-			return new LaravelHashStore(Config::get('hash-store'));
+			return new LaravelHashStore(Config::get('eggbe.hash-store'));
 		});
 	}
 
@@ -39,7 +39,7 @@ class LaravelHashStoreServiceProvider extends ServiceProvider {
 	 */
 	public final function boot() {
 		$this->publishes([
-			dirname(__DIR__) . '/config/hash-store.php' => config_path('hash-store.php'),
+			dirname(__DIR__) . '/config/hash-store.php' => config_path('eggbe/hash-store.php'),
 		]);
 	}
 
