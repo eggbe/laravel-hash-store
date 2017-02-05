@@ -4,6 +4,7 @@ This is the powerful library designed special for the Laravel framework and prov
 
 ## Features
 The library is fully file-based so you don't need to use any databases. 
+
 For more information see [Eggbe/Soauth](https://github.com/eggbe/hash-store).  
 
 ## Requirements
