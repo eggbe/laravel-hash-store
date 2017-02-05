@@ -2,7 +2,7 @@
 	"name": "eggbe/laravel-hash-store",
 	"version": "2.0.0",
 	"keywords": ["laravel", "hash", "hashes", "file-based", "md5", "lightweight", "lists", "security", "storage"],
-	"description": "Hashes storage library for Laravel 5",
+	"description": "Laravel 5 version of the file-based library for easy create and manage list of hashes",
 	"license": "MIT",
 	"authors": [
 		{
