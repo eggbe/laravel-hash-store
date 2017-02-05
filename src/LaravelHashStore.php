@@ -3,7 +3,7 @@ namespace Eggbe\LaravelHashStore;
 
 use \Eggbe\HashStore\HashStore;
 
-class LaravelHashStore extends HashStore{
+class LaravelHashStore extends HashStore {
 
 	/**
 	 * @param array $Config
