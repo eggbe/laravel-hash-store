@@ -10,7 +10,7 @@ For more information see [Eggbe/HashStore](https://github.com/eggbe/hash-store).
 ## Requirements
 * PHP >= 7.0.0
 * [Laravel](https://github.com/laravel/laravel) >= 5.0
-* [Eggbe/Helpers](https://github.com/eggbe/helpers)
+* [Able/Helpers](https://github.com/phpable/helpers)
 
 ## Install
 Here's a pretty simple way to start using Eggbe/HashStore:
